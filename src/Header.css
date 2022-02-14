@@ -1,0 +1,60 @@
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ffffff;
+  opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #ffffff;
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #ffffff;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  align-items: center;
+  background-color: #1d1d1d;
+  top: 0;
+  margin: 0 15px 15px 20px;
+  padding: 20px 0 0 0;
+}
+.header-logo {
+  object-fit: contain;
+  width: 50%;
+}
+.header-logo > a > img {
+  width: 250px;
+}
+.header-search {
+  padding: 5px;
+  border: 1px solid #ffffff;
+  width: 47.5%;
+}
+.header-search > input {
+  padding: 5px;
+  height: 20px;
+  background-color: #1d1d1d;
+  border: 0;
+  width: 90%;
+  color: #ffffff;
+}
+.header-search > button {
+  height: 20px;
+  background-color: #1d1d1d;
+  border: 0;
+  color: #ffffff;
+  cursor: pointer;
+}
+.header-search > button > svg {
+  font-size: 20px;
+  position: relative;
+  top: 4px;
+}

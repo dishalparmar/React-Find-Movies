@@ -1,0 +1,83 @@
+body.active-modal {
+  overflow-y: hidden;
+}
+.btn-modal {
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
+}
+.modal,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+.overlay {
+  background: rgba(0, 0, 0, 0.8);
+}
+.modal-movie-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+.modal-movie-poster {
+  width: 30%;
+  padding: 10px;
+}
+.modal-movie-poster > img {
+  width: 200px;
+}
+.modal-movie-details {
+  width: 70%;
+  justify-content: center;
+}
+.modal-movie-name {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.modal-movie-name > small {
+  font-size: 18px;
+}
+.modal-movie-info {
+  margin-top: 20px;
+}
+.modal-movie-info > p {
+  margin: 10px 0;
+}
+
+.modal-movie-plot {
+  margin-top: 35px !important;
+  letter-spacing: 2px;
+}
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #2c2c2c;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 300px;
+  min-width: 750px;
+  border-radius: 5px;
+}
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 30px;
+  width: 30px;
+  border: 0;
+  border-radius: 50%;
+  background-color: #000;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 600;
+  cursor: pointer;
+}

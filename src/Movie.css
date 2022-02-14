@@ -1,0 +1,17 @@
+.movie {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 20px 0;
+}
+.movie > img {
+  width: 210px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+.movie-info {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 25px;
+}

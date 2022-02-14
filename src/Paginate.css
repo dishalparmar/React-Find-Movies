@@ -1,0 +1,42 @@
+.paginate {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 20px;
+}
+.paginate-total {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.paginate-reactPaginate {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.paginate-count-display {
+  display: flex;
+  align-items: center;
+}
+.paginate-reactPaginate ul {
+  display: flex;
+  cursor: pointer;
+}
+.paginate-btns,
+.previous,
+.next {
+  list-style: none;
+}
+.previous,
+.next {
+  border: 1px solid;
+  margin-left: 10px;
+  padding: 5px;
+}
+.previous > a > svg, .next > a > svg {
+  font-size: 2rem;
+}
+.paginate-btns {
+  display: none;
+}
